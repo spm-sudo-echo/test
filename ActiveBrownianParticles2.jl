@@ -1,6 +1,6 @@
 # Define an "ActiveBrownianParticle" Type
 abstract type ActiveBrownianParticle end
-
+# testing for otimization 
 # Define a specific type for 2D ABPs
 struct ABP2 <: ActiveBrownianParticle
 	x::Float64 		# x position (μm)
